@@ -1,0 +1,28 @@
+body {
+  font-family: 'HeirofLightBold', 'Black Han Sans', sans-serif;
+  
+}
+
+@font-face {
+  font-family: 'HeirofLightBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  position:relative;
+  background-size: contain;
+}
+
+.text {
+  position:absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
